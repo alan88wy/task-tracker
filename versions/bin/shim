@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH='/Users/alan.wan/programming/angular/myApp/versions/lib/node_modules'
+export NPM_CONFIG_PREFIX='/Users/alan.wan/programming/angular/myApp/versions'
+export npm_config_prefix='/Users/alan.wan/programming/angular/myApp/versions'
+exec 'versions/bin/node' "$@"
